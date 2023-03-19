@@ -19,7 +19,7 @@ import { isAdmin, requireSignIn } from "../middlewares/authMiddleware.js";
 import formidableExpressMiddleWare from "express-formidable";
 // import multer from "multer";
 
-// const router = express.Router();
+const router = express.Router();
 
 // const storage = multer.diskStorage({
 //   destination: function(req, file, cb) {
